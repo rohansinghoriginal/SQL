@@ -1,0 +1,54 @@
+INSERT INTO job_applied(
+    job_id,
+    application_sent_date,
+    custom_resume,
+    resume_file_name,
+    cover_letter_sent,
+    cover_letter_file_name,
+    application_status
+)
+
+VALUES (
+    1,
+    '2024-07-01',
+    TRUE,
+    'resume_john_doe.pdf',
+    TRUE,
+    'cover_letter_john_doe.pdf',
+    'Applied'
+), 
+(
+    2,
+    '2024-07-02',
+    FALSE,
+    NULL,
+    FALSE,
+    NULL,
+    'Applied'
+), 
+(
+    3,
+    '2024-07-03',
+    TRUE,
+    'resume_jane_smith.pdf',
+    TRUE,
+    'cover_letter_jane_smith.pdf',
+    'Applied'
+),
+(    4,
+    '2024-07-04',
+    FALSE,
+    NULL,
+    FALSE,
+    NULL,
+    'Applied'
+),
+(
+    5,
+    '2024-07-05',
+    TRUE,
+    'resume_emily_jones.pdf',
+    TRUE,
+    'cover_letter_emily_jones.pdf',
+    'Applied'
+);
