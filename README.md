@@ -71,6 +71,8 @@ ORDER BY salary_year_avg DESC
 LIMIT 10;
 ```
 **Analysis**
+<br>
+
 ![Query 1 Output Analysis](/assets/output_q1.png) 
 
 **Key Insights**
@@ -118,6 +120,8 @@ FROM top_paying_jobs
 ORDER BY salary_year_avg DESC;
 ```
 **Analysis**
+<br>
+
 ![Query 2 Output Analysis](/assets/output_q2.png) 
 
 **Key Insights**
@@ -147,6 +151,8 @@ ORDER BY demand_count DESC
 LIMIT 5;
 ```
 **Analysis**
+<br>
+
 ![Query 3 Output Analysis](/assets/output_q3.png) 
 
 **Key Insights** 
@@ -181,6 +187,8 @@ ORDER BY average_salary DESC
 LIMIT 25;
 ```
 **Analyis**
+<br>
+
 ![Query 4 Output Analysis](/assets/output_q4.png) 
 
 **Key Insights**
@@ -217,6 +225,7 @@ LIMIT 25;
 ```
 
 **Analysis**
+<br>
 ![Query 5 Output Analysis](/assets/output_q5.png) 
 
 **Key Insights**
